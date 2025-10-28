@@ -47,7 +47,7 @@ This codebase is intended for research use (experimentation, ablations, reproduc
 - PyTorch Geometric (matching your PyTorch & CUDA)
 - Commonly used libs: numpy, scipy, scikit-learn, opencv-python, pyyaml, tqdm, pandas
 
-## Folder Overview
+## Folder Structure
 - Features
 - Images
 - Model Training
