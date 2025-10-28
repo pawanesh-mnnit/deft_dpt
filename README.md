@@ -10,19 +10,6 @@ Research code for egocentric multimodal action recognition (RGB, Optical Flow, D
 - [Requirements](#requirements)
 - [Folder structure](#folder-structure)
 - [Installation](#installation)
-- [Data preparation](#data-preparation)
-- [Quick start](#quick-start)
-  - [Training](#training)
-  - [Evaluation](#evaluation)
-  - [Inference](#inference)
-- [Configuration](#configuration)
-- [Implementation details](#implementation-details)
-- [Hyperparameters & recommendations](#hyperparameters--recommendations)
-- [Output / Checkpoints / Logs](#output--checkpoints--logs)
-- [Results & examples](#results--examples)
-- [Citation](#citation)
-- [License & credits](#license--credits)
-- [Contact](#contact)
 
 ---
 
@@ -59,6 +46,12 @@ This codebase is intended for research use (experimentation, ablations, reproduc
 - PyTorch 1.10+ (install matching CUDA if available)
 - PyTorch Geometric (matching your PyTorch & CUDA)
 - Commonly used libs: numpy, scipy, scikit-learn, opencv-python, pyyaml, tqdm, pandas
+
+## Folder Overview
+- Features
+- Images
+- Model Training
+- SavedModels
 
 A `requirements.txt` is included. Install dependencies with:
 ```bash
