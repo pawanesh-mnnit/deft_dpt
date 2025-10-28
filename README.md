@@ -21,6 +21,9 @@ Research code for egocentric multimodal action recognition (RGB, Optical Flow, D
 - [Output / Checkpoints / Logs](#output--checkpoints--logs)
 - [Results & examples](#results--examples)
 - [Citation](#citation)
+- [License & credits](#license--credits)
+- [Contact](#contact)
+
 ---
 
 ## Project Overview
@@ -62,7 +65,6 @@ A `requirements.txt` is included. Install dependencies with:
 python -m venv venv
 source venv/bin/activate        # macOS / Linux
 # venv\Scripts\activate         # Windows
-
 pip install -r requirements.txt
 # Install torch & torchvision separately per your CUDA: https://pytorch.org/
 # Install PyG (PyTorch Geometric) per instructions: https://pytorch-geometric.readthedocs.io/
