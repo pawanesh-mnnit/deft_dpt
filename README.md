@@ -48,7 +48,7 @@ This codebase is intended for research use (experimentation, ablations, reproduc
 - Commonly used libs: numpy, scipy, scikit-learn, opencv-python, pyyaml, tqdm, pandas
 
 ## Folder Structure
-- Features
+- Feature Extractions
 - Images
 - Model Training
 - SavedModels
