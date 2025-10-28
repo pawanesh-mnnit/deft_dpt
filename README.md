@@ -1,1 +1,68 @@
-# deft_dpt
+# DEFT-DPT
+**Dynamic Egocentric Feature Transformation (DEFT)** + **Dynamic Percentile Thresholding (DPT)**  
+Research code for egocentric multimodal action recognition (RGB, Optical Flow, Depth) with graph-based learning (GAT / GCN).
+
+---
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Key Features](#key-features)
+- [Requirements](#requirements)
+- [Folder structure](#folder-structure)
+- [Installation](#installation)
+- [Data preparation](#data-preparation)
+- [Quick start](#quick-start)
+  - [Training](#training)
+  - [Evaluation](#evaluation)
+  - [Inference](#inference)
+- [Configuration](#configuration)
+- [Implementation details](#implementation-details)
+- [Hyperparameters & recommendations](#hyperparameters--recommendations)
+- [Output / Checkpoints / Logs](#output--checkpoints--logs)
+- [Results & examples](#results--examples)
+- [Citation](#citation)
+---
+
+## Project Overview
+This repository contains code to reproduce experiments for egocentric action recognition using:
+- **DEFT** — a spatial-localization feature transformation module that adapts local receptive fields for egocentric frames.
+- **DPT** — Dynamic Percentile Thresholding, a percentile-based graph sparsification method for constructing adjacency matrices from pairwise similarities.
+- Graph Neural Networks (GAT / GCN) to model inter-frame and multimodal relationships.
+
+The pipeline typical flow:
+1. Frame extraction / pre-processing
+2. Backbone feature extraction (e.g., ResNet50 / EfficientNet)
+3. DEFT spatial transformer and feature projection (2048 → 512)
+4. Graph construction via cosine similarity + DPT (or KNN fallback)
+5. GNN modeling (GAT / GCN)
+6. Training / evaluation / inference
+
+This codebase is intended for research use (experimentation, ablations, reproducible results).
+
+---
+
+## Key Features
+- DEFT implementation for spatially-adaptive feature transformation.
+- Dynamic Percentile Thresholding (DPT) to create sparse graphs without choosing a fixed K.
+- Support for multimodal inputs (RGB, Optical Flow, Depth).
+- GAT and GCN model implementations.
+- Training scripts with checkpointing, logging and resume capability.
+- Evaluation scripts for Top-1, Top-5, Precision, Recall, F1-score, and confusion matrix.
+
+---
+
+## Requirements
+- Python 3.8+ (3.9 recommended)
+- PyTorch 1.10+ (install matching CUDA if available)
+- PyTorch Geometric (matching your PyTorch & CUDA)
+- Commonly used libs: numpy, scipy, scikit-learn, opencv-python, pyyaml, tqdm, pandas
+
+A `requirements.txt` is included. Install dependencies with:
+```bash
+python -m venv venv
+source venv/bin/activate        # macOS / Linux
+# venv\Scripts\activate         # Windows
+
+pip install -r requirements.txt
+# Install torch & torchvision separately per your CUDA: https://pytorch.org/
+# Install PyG (PyTorch Geometric) per instructions: https://pytorch-geometric.readthedocs.io/
