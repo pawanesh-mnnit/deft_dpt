@@ -20,10 +20,10 @@ This repository contains code to reproduce experiments for egocentric action rec
 - Graph Neural Networks (GAT / GCN) to model inter-frame and multimodal relationships.
 
 The pipeline typical flow:
-1. Frame extraction / pre-processing
-2. Backbone feature extraction (e.g., ResNet50 / EfficientNet)
-3. DEFT spatial transformer and feature projection (2048 → 512)
-4. Graph construction via cosine similarity + DPT (or KNN fallback)
+1. Input Frame
+2. DEFT spatial transformer for preprocessing
+3. Backbone feature extraction (e.g., ResNet50 / EfficientNet)
+4. Sparse Video Similarity Graph (SVSG) construction using DPT
 5. GNN modeling (GAT / GCN)
 6. Training / evaluation / inference
 
@@ -33,7 +33,7 @@ This codebase is intended for research use (experimentation, ablations, reproduc
 
 ## Key Features
 - DEFT implementation for spatially-adaptive feature transformation.
-- Dynamic Percentile Thresholding (DPT) to create sparse graphs without choosing a fixed K.
+- Dynamic Percentile Thresholding (DPT) to create Sparse Video Similarity Graphs (SVSG) without choosing a fixed K.
 - Support for multimodal inputs (RGB, Optical Flow, Depth).
 - GAT and GCN model implementations.
 - Training scripts with checkpointing, logging and resume capability.
