@@ -48,10 +48,11 @@ This codebase is intended for research use (experimentation, ablations, reproduc
 - Commonly used libs: numpy, scipy, scikit-learn, opencv-python, pyyaml, tqdm, pandas
 
 ## Folder Structure
-- Feature Extractions
-- Images
+- Input_Data
+- Feature Extraction
 - Model Training
 - SavedModels
+- Results
 
 A `requirements.txt` is included. Install dependencies with:
 ```bash
