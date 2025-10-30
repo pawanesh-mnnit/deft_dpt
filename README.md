@@ -9,7 +9,7 @@ Research code for egocentric multimodal action recognition (RGB, Optical Flow, D
 - [Key Features](#key-features)
 - [Requirements](#requirements)
 - [Folder structure](#folder-structure)
-- [Datasets}](#datasets)
+- [Datasets](#datasets)
 - [Installation](#installation)
 
 ---
