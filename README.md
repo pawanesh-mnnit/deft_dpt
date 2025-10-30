@@ -54,6 +54,11 @@ This codebase is intended for research use (experimentation, ablations, reproduc
 - SavedModels
 - Results
 - SupplementaryMaterials
+## Datasets
+- Epic-kitchens (https://github.com/epic-kitchens)
+- Meccano (https://iplab.dmi.unict.it/MECCANO/)
+- GTEA (https://cbs.ic.gatech.edu/fpv/)
+- ADL (https://web.cs.ucdavis.edu/~hpirsiav/papers/ADLdataset/)
 
 A `requirements.txt` is included. Install dependencies with:
 ```bash
