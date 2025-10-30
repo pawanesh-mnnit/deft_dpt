@@ -49,10 +49,11 @@ This codebase is intended for research use (experimentation, ablations, reproduc
 
 ## Folder Structure
 - Input_Data
-- Feature Extraction
+- Feature Extractions
 - Model Training
 - SavedModels
 - Results
+- SupplementaryMaterials
 
 A `requirements.txt` is included. Install dependencies with:
 ```bash
