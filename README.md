@@ -33,7 +33,7 @@ This codebase is intended for research use (experimentation, ablations, reproduc
 
 ## Key Features
 - DEFT implementation for spatially-adaptive feature transformation.
-- Dynamic Percentile Thresholding (DPT) to create Sparse Video Similarity Graphs (SVSG) without choosing a fixed K.
+- Dynamic Percentile Thresholding (DPT) to construct Sparse Video Similarity Graphs (SVSG) without choosing a fixed-K value and other methods.
 - Support for multimodal inputs (RGB, Optical Flow, Depth).
 - GAT and GCN model implementations.
 - Training scripts with checkpointing, logging and resume capability.
