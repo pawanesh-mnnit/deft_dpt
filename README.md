@@ -23,12 +23,10 @@ This repository contains code to reproduce experiments for egocentric action rec
 The pipeline typical flow:
 1. Input Frame
 2. DEFT spatial transformer for preprocessing
-3. Backbone feature extraction (e.g., ResNet50 / EfficientNet)
+3. Backbone feature extraction (ResNet50, EfficientNet-B0, VGG16, and AlexNet)
 4. Sparse Video Similarity Graph (SVSG) construction using DPT
 5. GNN modeling (GAT / GCN)
 6. Training / evaluation / inference
-
-This codebase is intended for research use (experimentation, ablations, reproducible results).
 
 ---
 
