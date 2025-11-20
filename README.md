@@ -55,7 +55,7 @@ This codebase is intended for research use (experimentation, ablations, reproduc
 - SavedModels
 - Results (Containing Top-1 & Top-5 Resutls screenshot)
 - SupplementaryMaterials
-## Datasets
+## Datasets (Publicly Available)
 - Epic-kitchens (https://github.com/epic-kitchens)
 - Meccano (https://iplab.dmi.unict.it/MECCANO/)
 - GTEA (https://cbs.ic.gatech.edu/fpv/)
