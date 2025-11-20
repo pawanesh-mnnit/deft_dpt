@@ -61,6 +61,7 @@ This codebase is intended for research use (experimentation, ablations, reproduc
 - GTEA (https://cbs.ic.gatech.edu/fpv/)
 - ADL (https://web.cs.ucdavis.edu/~hpirsiav/papers/ADLdataset/)
 
+## Installation
 A `requirements.txt` is included. Install dependencies with:
 ```bash
 python -m venv venv
