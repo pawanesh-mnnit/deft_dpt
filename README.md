@@ -53,7 +53,7 @@ This codebase is intended for research use (experimentation, ablations, reproduc
 - Feature Extractions
 - Model Training
 - SavedModels
-- Results
+- Results (Containing Top-1 & Top-5 Resutls screenshot)
 - SupplementaryMaterials
 ## Datasets
 - Epic-kitchens (https://github.com/epic-kitchens)
