@@ -62,7 +62,7 @@ The pipeline typical flow:
 - ADL (https://web.cs.ucdavis.edu/~hpirsiav/papers/ADLdataset/)
 
 ## Some Output Result
-![Method Pipeline](Results/Proposed_DEFT_DPT.png)
+![Method Pipeline](Results/Qualitative_TIM.png)
 
 ## Installation
 A `requirements.txt` is included. Install dependencies with:
