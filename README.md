@@ -20,7 +20,7 @@ This repository contains code to reproduce experiments for egocentric action rec
 - **DPT** — Dynamic Percentile Thresholding, a percentile-based graph sparsification method for constructing adjacency matrices from pairwise similarities.
 - Graph Neural Networks (GAT / GCN) to model inter-frame and multimodal relationships.
 
-![Method Pipeline](Viz_Results/AA_Intro.png)
+![Method Pipeline](Results/AD1.pdf)
 
 The pipeline typical flow:
 1. Input Frame
