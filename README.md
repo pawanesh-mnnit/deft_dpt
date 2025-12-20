@@ -61,6 +61,9 @@ The pipeline typical flow:
 - GTEA (https://cbs.ic.gatech.edu/fpv/)
 - ADL (https://web.cs.ucdavis.edu/~hpirsiav/papers/ADLdataset/)
 
+## Some Output Result
+![Method Pipeline](Results/Proposed_DEFT_DPT.png)
+
 ## Installation
 A `requirements.txt` is included. Install dependencies with:
 ```bash
